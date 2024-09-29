@@ -7,22 +7,6 @@
 
 **Using type="submit" for primary actions, type="button" for secondary actions, and type="reset" for destructive actions is a sensible and effective design pattern for form handling.**
 
-```
-<button type="submit">Confirm</button>
-<button type="button">Cancel</button>
-<button type="reset">Cancel</button>
-```
-- Primary button (type="submit") confirms the action.
-- Secondary button (type="button") performs a cancel or close operation, but the functionality can be defined via JavaScript or another mechanism.
-- or Secondary buttons (like type="reset") can suggest a secondary or alternative action that doesn’t finalize anything, such as "Cancel", "Back", or "Reset".
-
-only having two options:
-
-```
-<button>Click</button> (<button type="button">Click</button>)
-<button type="reset">Cancel</button>
-```
-
-
-- Using type="button" for primary actions communicates that the button is meant to trigger an important or final action.
-- Using type="reset" for secondary actions (like canceling or reverting) semantically aligns the button's purpose with its function, which is often to undo changes or clear input fields.
+- **Black**: This button=submit is typically used for actions like saving data, sending user input, or finalizing a transaction (e.g., “Submit,” “Save,” “Register”).
+- **Gray***: This button=button is often used for actions that do not involve form submission, such as opening a modal, running scripts, or any custom action (e.g., “Preview,” “Edit,” “Load More”).
+- **Red**: This button=reset is typically used for actions like canceling user input or restoring form fields to their original values (e.g., “Reset,” “Clear,” “Cancel”).
