@@ -1,5 +1,14 @@
 ```
 <button type="submit">Confirm</button>
+<button type="button">Edit</button>
+<button type="reset">Cancel</button>
+```
+
+
+**Using type="submit" for primary actions, type="button" for secondary actions, and type="reset" for destructive actions is a sensible and effective design pattern for form handling.**
+
+```
+<button type="submit">Confirm</button>
 <button type="button">Cancel</button>
 <button type="reset">Cancel</button>
 ```
