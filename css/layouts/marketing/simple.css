@@ -1,0 +1,58 @@
+body {
+    width: 90%;
+    margin: 1.5rem auto;
+}
+
+header {}
+
+main {
+    height: 100vh;
+}
+
+footer {}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav>ul>li {
+    justify-content: center;
+    align-items: center;
+}
+
+nav>ul>li {
+    display: flex;
+    gap: 0.5rem;
+}
+
+header> :not(nav) {
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+header a,
+footer a {
+    text-decoration: none;
+}
+
+
+main {
+    text-align: center;
+}

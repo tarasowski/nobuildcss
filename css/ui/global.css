@@ -1,0 +1,119 @@
+@import url('font.css');
+
+:root {
+    --primary-color: #18181B;
+    --secondary-color: #F6F6F7;
+    --destructive-color: #ef4444;
+    --input-border-color: #18181B;
+    --input-border-color: #ccc;
+    --background-color: #fff;
+    --foreground-color: #333;
+    --muted-foreground-color: #999;
+    --ring-color: #007bff;
+    --border-radius: 0.375rem;
+}
+
+body {
+    font-family: 'Geist', sans-serif;
+}
+
+/* Base font size */
+h1 {
+    font-size: 1.875rem;
+    color: var(--primary-color);
+    margin: 0;
+    line-height: 4.5rem;
+    /* 30px */
+}
+
+/* Small screens (sm) */
+@media (min-width: 640px) {
+    h1 {
+        font-size: 3rem;
+        /* 48px */
+    }
+}
+
+/* Medium screens (md) */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 3.75rem;
+        /* 60px */
+    }
+}
+
+/* Large screens (lg) */
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 4.5rem;
+        /* 72px */
+    }
+}
+
+
+h2 {
+    scroll-margin: 20px;
+    font-size: 1.5rem;
+    /* 24px */
+    line-height: 2rem;
+    /* 32px */
+    font-weight: 700;
+    letter-spacing: -0.01562em;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    scroll-margin: 20px;
+    font-size: 1.25rem;
+    /* 20px */
+    line-height: 1.75rem;
+    /* 28px */
+    font-weight: 700;
+    letter-spacing: -0.01562em;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    scroll-margin: 20px;
+    font-size: 1rem;
+    /* 16px */
+    line-height: 1.5rem;
+    /* 24px */
+    font-weight: 700;
+    letter-spacing: -0.01562em;
+    margin: 0;
+    padding: 0;
+}
+
+h5 {
+    scroll-margin: 20px;
+    font-size: 0.875rem;
+    /* 14px */
+    line-height: 1.25rem;
+    /* 20px */
+    font-weight: 700;
+    letter-spacing: -0.01562em;
+    margin: 0;
+    padding: 0;
+}
+
+h6 {
+    scroll-margin: 20px;
+    font-size: 0.75rem;
+    /* 12px */
+    line-height: 1rem;
+    /* 16px */
+    font-weight: 700;
+    letter-spacing: -0.01562em;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    line-height: 1.5rem;
+    color: var(--muted-foreground-color);
+    font-weight: 300;
+    font-size: 1.25rem;
+}

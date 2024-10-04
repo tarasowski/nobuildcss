@@ -1,0 +1,35 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 0.5rem;
+    width: 90%;
+}
+
+form>*:last-child {
+    margin-top: 0.5rem;
+    /* Adjust this value as needed */
+}
+
+form input {
+    min-width: 50%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 1.25rem 1rem;
+}
+
+form button[type=submit] {
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    form {
+        width: 30%;
+    }
+
+    form button[type=submit] {
+        width: 100%;
+    }
+
+}

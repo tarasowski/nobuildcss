@@ -1,0 +1,8 @@
+label {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1;
+    color: var(--primary-color)
+}
