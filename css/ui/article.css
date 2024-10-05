@@ -4,9 +4,7 @@ article {
     display: inline-flex;
     flex-direction: column;
     gap: 0.5rem;
-    min-width: 14rem;
     padding: 2rem 1rem;
     text-align: left;
-    flex: 1;
 }
 

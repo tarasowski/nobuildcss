@@ -15,8 +15,6 @@ form>*:last-child {
 form input {
     min-width: 50%;
     max-width: 100%;
-    box-sizing: border-box;
-    padding: 1.25rem 1rem;
 }
 
 form button[type=submit] {

@@ -1,19 +1,21 @@
 input {
     display: flex;
-    height: 1.5rem;
+    height: 1rem;
     width: 100%;
-    border-radius: 0.375rem;
-    border-width: 0.8px;
+    min-width: 18rem;
+    border-radius: var(--border-radius);
+    border-width: var(--border-width);
     border-color: var(--input-border-color);
     background-color: var(--background-color);
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1.15rem;
+    padding-bottom: 1.15rem;
     font-size: 0.875rem;
     --ring-offset-color: var(--background-color);
     font-weight: 500;
     color: var(--foreground-color);
+    box-sizing: border-box;
 }
 
 input::placeholder {
